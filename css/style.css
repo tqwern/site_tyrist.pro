@@ -1,54 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
-    width:  1440px;
-    margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* ---начало шапки--- */
 
+
+
 .nav {
-    display: flex;
+  display: flex;
+  background-color: rgba(168, 222, 230, 0.557);
 }
 
 .logo {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    color: rgba(120, 165, 205, 0.908);
-    margin: 10px 752px 0px 0px ;
-    
+    padding-left: 251.500px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(101, 145, 172, 0.908);
+  margin: 10px 648px 8px 0px;
 }
 
 .info_nav {
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: 600;
-    right: 0px;
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 600;
+  right: 0px;
 }
 
 .info_nav a {
-    color: rgba(28, 46, 59, 0.908);
+  color: rgba(28, 46, 59, 0.908);
 }
 
 .info_nav a:hover {
-    color:  rgba(120, 165, 205, 0.908);
+  color: rgba(101, 145, 172, 0.908);
+  transition: 0.5s;
 }
 
 .search {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* ---начало шапки--- */
@@ -56,71 +60,114 @@ a {
 /* ---алгоритм брониования начало--- */
 
 .algorithm_txt {
-    text-align: center;
-    padding-top: 1px;
-    color: rgb(54, 76, 93);
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(54, 76, 93);
 }
 
 .algorithm_txt h1 {
-    font-size: 30px;
+  font-size: 50px;
 }
 
 .algorithm_txt p {
-    font-size: 20px;
-    padding-top: 10px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
 }
 
 .algorithm {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 .add_info {
-    padding-right: 80px;
-    text-align: center;
+  padding-right: 80px;
+  text-align: center;
 }
 
 .add_info p {
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(54, 76, 93);
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(54, 76, 93);
 }
 
 /* ---алгоритм брониования конец--- */
 
+/* ----отзывы начало---- */
+
 .img_avatar_comment {
-   border-radius: 100%;
-   width: 110px;
-   margin-left: 100px;
+  border-radius: 100%;
+  width: 120px;
+  margin-left: 100px;
 }
 
 .block_txt_comment {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .h1_super_tour {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(54, 76, 93);
+  text-align: center;
+  font-size: 40px;
+  color: rgb(101, 145, 172);
+  margin-top: 50px;
+  padding: 15px 0 15px 0;
+  background-color: rgba(168, 222, 230, 0.557);
 }
 
 .slogan {
-    text-align: center;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(54, 76, 93);
+  padding-right: 683px;
 }
 
 .txt_comment {
-    width: 1000px;
-    font-size: 19px;
-    font-weight: 400;
-    font-style: italic;
-    color: rgb(54, 76, 93);
-
+  width: 1000px;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(54, 76, 93);
 }
 
-.comments {
+.line {
+    border-bottom: 1px solid rgba(54, 76, 93, 0.517);
+    width: 500px;
+    margin-left: 600px;
+}
 
+/* ----отзывы конец---- */
+
+
+.form_search {
+    margin-top: 60px;
+    opacity: 0.6;
+}
+
+.line_1 {
+    height: 100px;
+}
+
+.stocks {
+    display: flex;
+    justify-content: center;
+}
+
+.txt_stocks {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: rgb(54, 76, 93);
+}
+
+.malta {
+    margin-left: 30px;
+    margin-right: 30px;
 }
