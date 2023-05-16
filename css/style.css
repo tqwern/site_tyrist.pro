@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width:  1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---начало шапки--- */
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(120, 165, 205, 0.908);
+    margin: 10px 752px 0px 0px ;
+    
+}
+
+.info_nav {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    right: 0px;
+}
+
+.info_nav a {
+    color: rgba(28, 46, 59, 0.908);
+}
+
+.info_nav a:hover {
+    color:  rgba(120, 165, 205, 0.908);
+}
+
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ---начало шапки--- */
+
+/* ---алгоритм брониования начало--- */
+
+.algorithm_txt {
+    text-align: center;
+    padding-top: 1px;
+    color: rgb(54, 76, 93);
+}
+
+.algorithm_txt h1 {
+    font-size: 30px;
+}
+
+.algorithm_txt p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.algorithm {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.add_info {
+    padding-right: 80px;
+    text-align: center;
+}
+
+.add_info p {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(54, 76, 93);
+}
+
+/* ---алгоритм брониования конец--- */
+
+.img_avatar_comment {
+   border-radius: 100%;
+   width: 110px;
+   margin-left: 100px;
+}
+
+.block_txt_comment {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.h1_super_tour {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(54, 76, 93);
+}
+
+.slogan {
+    text-align: center;
+}
+
+.txt_comment {
+    width: 1000px;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(54, 76, 93);
+
+}
+
+.comments {
+
+}
